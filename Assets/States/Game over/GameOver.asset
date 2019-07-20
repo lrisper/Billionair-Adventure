@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3fc1dfed2ce428398be782edcba770, type: 3}
+  m_Name: GameOver
+  m_EditorClassIdentifier: 
+  _storyText: "Game over \n\nDo you want to play again?\n1. Yes\n2. No"
+  _nextStates:
+  - {fileID: 11400000, guid: 4f386746e264f4c4eaa9a5a3ce6a9f40, type: 2}
+  - {fileID: 11400000, guid: 65d51a1f55cfd46fda4240051eb83787, type: 2}

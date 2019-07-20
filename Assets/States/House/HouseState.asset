@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3fc1dfed2ce428398be782edcba770, type: 3}
+  m_Name: HouseState
+  m_EditorClassIdentifier: 
+  _storyText: 'The house you bought cost 1 million dollars and 100 thousand dollar
+    a year to own.
+
+
+    you throw a big house warming pary to show off your new home,
+
+
+    Someone that you dont know pulled out a gun.
+
+
+    What do you do?
+
+    1. Be a hero and try to take him out.
+
+    2. Hide and call the police.'
+  _nextStates:
+  - {fileID: 11400000, guid: 91df46d531bac4ff9a0de36f5bc3928f, type: 2}
+  - {fileID: 11400000, guid: 02269dd98a12547f1b038263a249b165, type: 2}
